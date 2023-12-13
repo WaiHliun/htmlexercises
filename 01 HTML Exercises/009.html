@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Link Example</title>
+		<!-- base href="https://www.w3schools.com" /-->
+	</head>
+	
+	<body> <!-- alink="blue" link="green" vlink="yellow" -->
+		<!-- Link with Target -->
+		<a href = "https://www.google.com" target = "_self">Google</a>
+		<a href = "https://www.w3schools.com" target = "_blank">W3Schools</a><br />
+		<a href = "005.html" target = "_blank">Formatting Tags</a><br />
+		
+		<!-- Link with button -->
+		<a href="https://www.mpt.com.mm"><input type="button" value="Link Button" width="100" /></a>
+		<!-- Link with image -->
+		<a href = "https://en.wikipedia.org" target = "_blank"><img src="images/wikipedia.png" width="600" height="400" /></a>
+		
+		<br /><br />
+		<!-- Link to a page section -->
+		<a href = "#solid">SOLID Design Principle</a><br />
+		<a href = "#LSP">The Liskov Substitution Principle</a><br />
+		
+		<br /><br />
+		<!-- Link with Base path -->
+		<a href = "/css" target = "_blank">CSS Tutorial</a><br />
+		<a href = "/js" target = "_blank">JavaScript Tutorial</a><br />
+		
+		<!-- Link to a page section -->
+		<div style="background-color:linen;width:50%;padding:10px 10px 10px 10px;">		
+			<h1><a id="solid">SOLID Design Principles in C#</a></h1>
+			<p>
+				<b>S.O.L.I.D</b> is an acronym for the <b>first five object-oriented design(OOD) principles</b>. 
+				These principles, when combined together, make it easy for a programmer to develop software that 
+				are easy to maintain and extend. They also make it easy for developers to avoid code smells, 
+				easily refactor code, and are also a part of the agile or adaptive software development.
+			</p>
+			<ol>
+				<li>
+					<b>SRP</b> The Single Responsibility Principle - a class should have one, and only one, 
+					reason to change, meaning that a class should have only one job.
+				</li>
+				<li>
+					<b>OCP</b> The Open Closed Principle - you should be able to extend a class's behavior, 
+					without modifying it.
+				</li>
+				<li><a id="LSP">
+					<b>LSP</b> The Liskov Substitution Principle - If any module is using a Base class then the 
+					reference to that Base class can be replaced with a Derived class without affecting the 
+					functionality of the module.
+				</a></li>
+				<li>
+					<b>ISP</b> The Interface Segregation Principle - make fine grained interfaces that are client 
+					specific.
+				</li>
+				<li>
+					<b>DIP</b> The Dependency Inversion Principle - depend on abstractions not on concrete 
+					implementations.
+				</li>
+			</ol>
+			<p><a href="documents/ASP.Net%20With%20SOLID.pdf">Beginning SOLID Principles and Design Patterns for 
+			ASP.Net Developers</a></p>
+		</div>
+	</body>
+</html>

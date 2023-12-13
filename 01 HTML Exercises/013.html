@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Simple HTML Table</title> 
+	</head> 
+	<body>
+        <h2>Simple HTML Table</h2>
+		<table border="1">
+            <caption>Sample Table</caption>
+			<tr> 
+				<td>Row 1, Column 1</td> 
+				<td>Row 1, Column 2</td> 
+				<td>Row 1, Column 3</td> 
+			</tr> 
+			<tr> 
+				<td>Row 2, Column 1</td> 
+				<td>Row 2, Column 2</td> 
+			</tr> 
+        </table>
+        <hr />
+        <h2>HTML Table with Header</h2>
+        <table border="1"> 
+            <caption>Sample Table Header</caption>
+            <tr>
+                <th>No.</th>
+                <th>Name</th> 
+                <th>Salary</th> 
+            </tr> 
+            <tr>
+                <td>1.</td>
+                <td>Ramesh Raman</td> 
+                <td>5000</td> 
+            </tr> 
+            <tr>
+                <td>2.</td>
+                <td>Shabbir Hussein</td> 
+                <td>7000</td> 
+            </tr> 
+        </table>
+        <hr />
+        <h2>HTML Table with THEAD, TFOOT, TBODY, COLSPAN</h2>
+        <table border="1" width="50%">
+            <caption>THEAD, TFOOT, TBODY</caption>
+            <thead>
+                <tr><td colspan="4">This is the head of the table</td></tr> 
+            </thead> 
+            <tbody> 
+                <tr> 
+                    <td>Cell 1</td> 
+                    <td>Cell 2</td> 
+                    <td>Cell 3</td> 
+                    <td>Cell 4</td> 
+                </tr> 
+            </tbody> 
+            <tfoot> 
+                <tr><td colspan="4">This is the foot of the table</td></tr> 
+            </tfoot> 
+        </table>
+        <hr />
+        <h2>HTML Table with ROWSPAN, BORDERCOLOR, BGCOLOR</h2>
+        <table border="1" bordercolor="yellow" bgcolor="green" width="500px">
+            <caption>ROWSPAN, BORDERCOLOR, BGCOLOR</caption>
+            <tr> 
+                <th>Column 1</th> 
+                <th>Column 2</th> 
+                <th>Column 3</th> 
+            </tr> 
+            <tr><td rowspan="2">Row 1 Cell 1</td><td>Row 1 Cell 2</td><td>Row 1 Cell 3</td></tr> 
+            <tr><td>Row 2 Cell 2</td><td>Row 2 Cell 3</td></tr> 
+            <tr><td colspan="3">Row 3 Cell 1</td></tr> 
+        </table> 
+	</body> 
+</html>
